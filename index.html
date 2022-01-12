@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <title>Discover Amazing places in Japan</title>
 </head>
 <body>
@@ -20,19 +20,19 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#!" class="header__link">Articles</a>
+                            <a href="#articles" class="header__link js-scroll">Articles</a>
                         </li>
     
                         <li class="header__item">
-                            <a href="#!" class="header__link">Locations</a>
+                            <a href="#locations" class="header__link js-scroll">Locations</a>
                         </li>
     
                         <li class="header__item">
-                            <a href="#!" class="header__link">Videos</a>
+                            <a href="#videos" class="header__link js-scroll">Videos</a>
                         </li>
     
                         <li class="header__item">
-                            <a href="#!" class="header__link">Sign in</a>
+                            <a href="#sign-in" class="header__link js-scroll">Sign in</a>
                         </li>
                     </ul>
 
@@ -58,7 +58,7 @@
     </header>
 
     <main class="main">
-        <section class="intro">
+        <section class="intro" id="sign-in">
             <div class="wrapper">
                 <h1 class="intro__title">
                     Discover Amazing places in Japan
@@ -145,57 +145,57 @@
                 </div>
 
                 <div class="places__cards">
-                    <figure class="places__card places__card_size_lg">
-                        <img src="./img/mount.jpg" alt="Mount Fuji" class="places__card-picture places__card-picture_size_lg">
-                        <figcaption class="places__card-title">
+                    <div class="places__card places__card_size_lg">
+                        <img src="./img/mount-min.jpg" alt="Mount Fuji" class="places__card-picture places__card-picture_size_lg">
+                        <h3 class="places__card-title">
                             Mount Fuji
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
                         
-                    <figure class="places__card places__card_size_lg">
-                        <img src="./img/kyoto.jpg" alt="Kyoto" class="places__card-picture places__card-picture_size_lg">
-                        <figcaption class="places__card-title">
+                    <div class="places__card places__card_size_lg">
+                        <img src="./img/kyoto-min.jpg" alt="Kyoto" class="places__card-picture places__card-picture_size_lg">
+                        <h3 class="places__card-title">
                             Kyoto
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
 
 
 
-                    <figure class="places__card places__card_size_sm">
-                        <img src="./img/tokyo.jpg" alt="Tokyo" class="places__card-picture places__card-picture_size_sm">
-                        <figcaption class="places__card-title">
+                    <div class="places__card places__card_size_sm">
+                        <img src="./img/tokyo-min.jpg" alt="Tokyo" class="places__card-picture places__card-picture_size_sm">
+                        <h3 class="places__card-title">
                             Tokyo
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
-                    <figure class="places__card places__card_size_sm">
-                        <img src="./img/niigata.jpg" alt="Niigata" class="places__card-picture places__card-picture places__card-picture_size_sm">
-                        <figcaption class="places__card-title">
+                    <div class="places__card places__card_size_sm">
+                        <img src="./img/niigata-min.jpg" alt="Niigata" class="places__card-picture places__card-picture places__card-picture_size_sm">
+                        <h3 class="places__card-title">
                             Niigata
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
 
-                    <figure class="places__card places__card_size_sm">
-                        <img src="./img/sapporo.jpg" alt="Sapporo" class="places__card-picture places__card-picture places__card-picture_size_sm">
-                        <figcaption class="places__card-title">
+                    <div class="places__card places__card_size_sm">
+                        <img src="./img/sapporo-min.jpg" alt="Sapporo" class="places__card-picture places__card-picture places__card-picture_size_sm">
+                        <h3 class="places__card-title">
                             Sapporo
-                        </figcaption>
+                        </h3>
                         <a href="#!" class="places__card-link"></a>
-                    </figure>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <div class="tours">
+        <div class="tours" id="articles">
             <div class="wrapper-full">
                 <div class="tours__tour tour">
                     <div class="tour__pic">
-                        <img src="./img/tour-first.jpg" alt="Prefecture in Focus: Tottori" class="tour__thumb">
+                        <img src="./img/tour-first-min.jpg" alt="Prefecture in Focus: Tottori" class="tour__thumb">
                     </div>
                     <div class="tour__info">
                         <h3 class="tour__title">
@@ -223,8 +223,8 @@
                         </a>
                     </div>
 
-                        <div class="tour__pic">
-                            <img src="./img/tour-second.jpg" alt="Featured Neighborhood: Kyoto’s Arashiyama" class="tour__thumb">
+                        <div class="tour__pic tour__pic-mobile-first">
+                            <img src="./img/tour-second-min.jpg" alt="Featured Neighborhood: Kyoto’s Arashiyama" class="tour__thumb">
                         </div>
                     
                 </div>
@@ -232,7 +232,7 @@
             </div>
         </div>
 
-        <section class="top">
+        <section class="top" id="locations">
             <div class="wrapper-full">
                 <h2 class="top__title section-title">
                     Today top places to visit
@@ -242,7 +242,7 @@
 
                     <div class="top__card">
                         <div class="top__card-pic">
-                            <img src="./img/top_nagoya.jpg" alt="NAGOYA" class="top__card-thumb">
+                            <img src="./img/top_nagoya-min.jpg" alt="NAGOYA" class="top__card-thumb">
                             <div class="top__card-stats">
                                 <h3 class="top__card-title">
                                     NAGOYA
@@ -273,7 +273,7 @@
 
                     <div class="top__card">
                         <div class="top__card-pic">
-                            <img src="./img/top_niigata.jpg" alt="NIIGATA" class="top__card-thumb">
+                            <img src="./img/top_niigata-min.jpg" alt="NIIGATA" class="top__card-thumb">
                             <div class="top__card-stats">
                                 <h3 class="top__card-title">
                                     NIIGATA
@@ -304,7 +304,7 @@
 
                     <div class="top__card">
                         <div class="top__card-pic">
-                            <img src="./img/top_osaka.jpg" alt="OSAKA" class="top__card-thumb">
+                            <img src="./img/top_osaka-min.jpg" alt="OSAKA" class="top__card-thumb">
                             <div class="top__card-stats">
                                 <h3 class="top__card-title">
                                     OSAKA
@@ -335,7 +335,7 @@
 
                     <div class="top__card">
                         <div class="top__card-pic">
-                            <img src="./img/top_saitama.jpg" alt="SAITAMA" class="top__card-thumb">
+                            <img src="./img/top_saitama-min.jpg" alt="SAITAMA" class="top__card-thumb">
                             <div class="top__card-stats">
                                 <h3 class="top__card-title">
                                     SAITAMA
@@ -366,7 +366,7 @@
 
                     <div class="top__card">
                         <div class="top__card-pic">
-                            <img src="./img/top_ueno.jpg" alt="UENO" class="top__card-thumb">
+                            <img src="./img/top_ueno-min.jpg" alt="UENO" class="top__card-thumb">
                             <div class="top__card-stats">
                                 <h3 class="top__card-title">
                                     UENO
@@ -397,7 +397,7 @@
 
                     <div class="top__card">
                         <div class="top__card-pic">
-                            <img src="./img/top_shibuya.jpg" alt="SHIBUYA" class="top__card-thumb">
+                            <img src="./img/top_shibuya-min.jpg" alt="SHIBUYA" class="top__card-thumb">
                             <div class="top__card-stats">
                                 <h3 class="top__card-title">
                                     SHIBUYA
@@ -432,7 +432,7 @@
             </div>
         </section>
 
-        <div class="videos">
+        <div class="videos" id="videos">
             <div class="videos__wrapper">
                 <div class="video__item">     </div> 
                 <iframe class="video__element" src="https://www.youtube.com/embed/t7eczoBQhYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
