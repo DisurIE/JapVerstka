@@ -1076,6 +1076,18 @@ textarea {
         transform: translateY(-50%) rotate(-45deg);
     }
 
+    .search-form__field{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .benefits__card{
+        grid-column: span 3;
+    }
+
+
+
 }
+
 
 /*media end */
